@@ -1,0 +1,238 @@
+=========== Begin Game 1 ==========
+
+Deck before shuffling
+ A-C  2-C  3-C  4-C  5-C  6-C  7-C  8-C  9-C 10-C  J-C  Q-C  K-C
+ A-D  2-D  3-D  4-D  5-D  6-D  7-D  8-D  9-D 10-D  J-D  Q-D  K-D
+ A-H  2-H  3-H  4-H  5-H  6-H  7-H  8-H  9-H 10-H  J-H  Q-H  K-H
+ A-S  2-S  3-S  4-S  5-S  6-S  7-S  8-S  9-S 10-S  J-S  Q-S  K-S
+
+Deck after shuffling
+ 5-D  2-C  5-H  9-S  4-D  6-D  4-H  J-S  9-H  3-D  7-S  8-H  4-C
+ 4-S  9-D 10-C  6-C  K-H 10-H  7-C  3-H  K-D  6-H  3-C 10-D  A-D
+ J-C  K-S  5-S  A-S  Q-C  7-D 10-S  Q-H  Q-S  J-H  5-C  6-S  8-S
+ 7-H  2-S  A-H  J-D  A-C  8-D  3-S  8-C  2-D  K-C  2-H  Q-D  9-C
+
+Card piles: 
+
+Stack: [ 5-D,  2-C,  A-D,  A-C]
+Stack: [ 5-H,  4-D,  3-D,  3-C,  A-S,  A-H]
+Stack: [ 9-S,  6-D,  4-H,  4-C,  3-H,  2-S,  2-D]
+Stack: [ J-S,  9-H,  7-S,  4-S,  3-S,  2-H]
+Stack: [ 8-H,  6-C,  5-S,  5-C]
+Stack: [ 9-D,  7-C,  6-H]
+Stack: [10-C,  7-D,  6-S]
+Stack: [ K-H, 10-H, 10-D,  8-S,  7-H]
+Stack: [ K-D,  J-C, 10-S,  8-D,  8-C]
+Stack: [ K-S,  Q-C,  J-H,  J-D,  9-C]
+Stack: [ Q-H,  Q-D]
+Stack: [ Q-S]
+Stack: [ K-C]
+
+Longest subsequences: 
+
+Decreasing
+  K-C -> Q-S -> Q-H -> Q-C -> J-C ->10-D ->10-C -> 9-D -> 8-H -> 7-S -> 4-H -> 4-D -> 2-C
+
+Increasing
+  2-C -> 4-D -> 4-H -> 7-S -> 8-H -> 9-D ->10-C ->10-D -> J-C -> Q-C -> Q-H -> Q-S -> K-C
+
+Deck after sorting
+ A-C  A-D  A-H  A-S  2-C  2-D  2-H  2-S  3-C  3-D  3-H  3-S  4-C
+ 4-D  4-H  4-S  5-C  5-D  5-H  5-S  6-C  6-D  6-H  6-S  7-C  7-D
+ 7-H  7-S  8-C  8-D  8-H  8-S  9-C  9-D  9-H  9-S 10-C 10-D 10-H
+10-S  J-C  J-D  J-H  J-S  Q-C  Q-D  Q-H  Q-S  K-C  K-D  K-H  K-S
+
+=========== End   Game 1 ==========
+
+=========== Begin Game 2 ==========
+
+Deck before shuffling
+ A-C  2-C  3-C  4-C  5-C  6-C  7-C  8-C  9-C 10-C  J-C  Q-C  K-C
+ A-D  2-D  3-D  4-D  5-D  6-D  7-D  8-D  9-D 10-D  J-D  Q-D  K-D
+ A-H  2-H  3-H  4-H  5-H  6-H  7-H  8-H  9-H 10-H  J-H  Q-H  K-H
+ A-S  2-S  3-S  4-S  5-S  6-S  7-S  8-S  9-S 10-S  J-S  Q-S  K-S
+
+Deck after shuffling
+ 5-C  3-H  3-D  9-S 10-H  4-D  K-C  7-S  5-D  2-D  8-C  6-D  9-C
+ A-C  J-S 10-S  A-H  K-H  6-H  A-S  4-H  A-D  7-D  Q-S  Q-C  7-C
+ Q-H  9-H  Q-D  6-C  6-S  2-S  5-H  8-H  K-D  4-S  2-C  3-S  8-S
+ 2-H  K-S 10-C  5-S  4-C  3-C  7-H  J-C 10-D  8-D  9-D  J-D  J-H
+
+Card piles: 
+
+Stack: [ 5-C,  3-H,  3-D,  2-D,  A-C]
+Stack: [ 9-S,  4-D,  A-H,  A-D]
+Stack: [10-H,  7-S,  5-D,  A-S]
+Stack: [ K-C,  8-C,  6-D,  4-H,  2-S,  2-C]
+Stack: [ 9-C,  6-H,  6-C,  5-H,  4-S,  3-S,  2-H]
+Stack: [ J-S, 10-S,  7-D,  7-C,  6-S,  5-S,  4-C,  3-C]
+Stack: [ K-H,  Q-S,  Q-C,  9-H,  8-H,  7-H]
+Stack: [ Q-H,  Q-D,  8-S,  8-D]
+Stack: [ K-D, 10-C,  9-D]
+Stack: [ K-S,  J-C, 10-D]
+Stack: [ J-D]
+Stack: [ J-H]
+
+Longest subsequences: 
+
+Decreasing
+  J-H -> J-D ->10-D ->10-C -> 8-S -> 8-H -> 6-S -> 6-C -> 4-H -> A-S -> A-H -> A-C
+
+Increasing
+  A-C -> A-H -> A-S -> 4-H -> 6-C -> 6-S -> 8-H -> 8-S ->10-C ->10-D -> J-D -> J-H
+
+Deck after sorting
+ A-C  A-D  A-H  A-S  2-C  2-D  2-H  2-S  3-C  3-D  3-H  3-S  4-C
+ 4-D  4-H  4-S  5-C  5-D  5-H  5-S  6-C  6-D  6-H  6-S  7-C  7-D
+ 7-H  7-S  8-C  8-D  8-H  8-S  9-C  9-D  9-H  9-S 10-C 10-D 10-H
+10-S  J-C  J-D  J-H  J-S  Q-C  Q-D  Q-H  Q-S  K-C  K-D  K-H  K-S
+
+=========== End   Game 2 ==========
+
+=========== Begin Game 3 ==========
+
+Deck before shuffling
+ A-C  2-C  3-C  4-C  5-C  6-C  7-C  8-C  9-C 10-C  J-C  Q-C  K-C
+ A-D  2-D  3-D  4-D  5-D  6-D  7-D  8-D  9-D 10-D  J-D  Q-D  K-D
+ A-H  2-H  3-H  4-H  5-H  6-H  7-H  8-H  9-H 10-H  J-H  Q-H  K-H
+ A-S  2-S  3-S  4-S  5-S  6-S  7-S  8-S  9-S 10-S  J-S  Q-S  K-S
+
+Deck after shuffling
+ 5-C  4-C  Q-D  Q-C  7-D  7-H  Q-H  8-C  A-S  J-S  8-S  7-C  A-D
+ A-H  9-H  A-C 10-D  6-D  3-H  6-C  4-D  K-S  8-D  J-D  6-S  3-S
+ 4-H  4-S  3-C  7-S  6-H  3-D  9-S  8-H  K-D  K-C  9-D  5-S  2-D
+ J-C 10-S  2-C  9-C  Q-S  2-H  J-H  5-D  2-S 10-H  K-H  5-H 10-C
+
+Card piles: 
+
+Stack: [ 5-C,  4-C,  A-S,  A-D,  A-C]
+Stack: [ Q-D,  Q-C,  7-D,  7-C,  A-H]
+Stack: [ 7-H,  6-D,  3-H,  3-C,  2-D,  2-C]
+Stack: [ Q-H,  8-C,  6-C,  4-D,  3-S,  3-D,  2-H]
+Stack: [ J-S,  8-S,  8-D,  6-S,  4-H,  2-S]
+Stack: [ 9-H,  4-S]
+Stack: [10-D,  7-S,  6-H,  5-S,  5-D]
+Stack: [ K-S,  J-D,  9-S,  8-H,  5-H]
+Stack: [ K-D,  K-C,  9-D,  9-C]
+Stack: [ J-C, 10-S, 10-H, 10-C]
+Stack: [ Q-S,  J-H]
+Stack: [ K-H]
+
+Longest subsequences: 
+
+Decreasing
+  K-H -> J-H ->10-S -> 9-D -> 8-H -> 6-H -> 4-S -> 4-H -> 3-S -> 3-H -> A-H -> A-D
+
+Increasing
+  A-D -> A-H -> 3-H -> 3-S -> 4-H -> 4-S -> 6-H -> 8-H -> 9-D ->10-S -> J-H -> K-H
+
+Deck after sorting
+ A-C  A-D  A-H  A-S  2-C  2-D  2-H  2-S  3-C  3-D  3-H  3-S  4-C
+ 4-D  4-H  4-S  5-C  5-D  5-H  5-S  6-C  6-D  6-H  6-S  7-C  7-D
+ 7-H  7-S  8-C  8-D  8-H  8-S  9-C  9-D  9-H  9-S 10-C 10-D 10-H
+10-S  J-C  J-D  J-H  J-S  Q-C  Q-D  Q-H  Q-S  K-C  K-D  K-H  K-S
+
+=========== End   Game 3 ==========
+
+=========== Begin Game 4 ==========
+
+Deck before shuffling
+ A-C  2-C  3-C  4-C  5-C  6-C  7-C  8-C  9-C 10-C  J-C  Q-C  K-C
+ A-D  2-D  3-D  4-D  5-D  6-D  7-D  8-D  9-D 10-D  J-D  Q-D  K-D
+ A-H  2-H  3-H  4-H  5-H  6-H  7-H  8-H  9-H 10-H  J-H  Q-H  K-H
+ A-S  2-S  3-S  4-S  5-S  6-S  7-S  8-S  9-S 10-S  J-S  Q-S  K-S
+
+Deck after shuffling
+ 6-D  A-D 10-H  K-D  2-D  6-H  4-H  K-S  6-C  8-S  6-S  7-D  7-S
+ 5-D  J-C  3-H  4-D  Q-C  8-D  4-C  K-C  9-S  Q-S  3-D  2-H  2-S
+ A-H  3-C  8-H  J-H  Q-D  5-H  J-D  4-S  Q-H  9-C  2-C 10-D  5-C
+ J-S  A-S  9-D  7-C  K-H 10-C  8-C  9-H 10-S  5-S  A-C  7-H  3-S
+
+Card piles: 
+
+Stack: [ 6-D,  A-D,  A-C]
+Stack: [10-H,  2-D,  A-H]
+Stack: [ K-D,  6-H,  4-H,  3-H,  3-D,  2-H,  2-C,  A-S]
+Stack: [ K-S,  6-C,  5-D,  4-D,  4-C,  2-S]
+Stack: [ 8-S,  6-S,  3-C]
+Stack: [ 7-D,  5-H,  4-S,  3-S]
+Stack: [ 7-S,  5-C]
+Stack: [ J-C,  8-D,  7-C,  5-S]
+Stack: [ Q-C,  9-S,  8-H,  8-C,  7-H]
+Stack: [ K-C,  Q-S,  J-H,  J-D,  9-C]
+Stack: [ Q-D, 10-D,  9-D]
+Stack: [ Q-H,  J-S, 10-C,  9-H]
+Stack: [ K-H, 10-S]
+
+Longest subsequences: 
+
+Decreasing
+ 10-S -> 9-H -> 9-D -> 9-C -> 8-H -> 8-D -> 7-S -> 7-D -> 6-S -> 6-C -> 4-H -> 2-D -> A-D
+
+Increasing
+  A-D -> 2-D -> 4-H -> 6-C -> 6-S -> 7-D -> 7-S -> 8-D -> 8-H -> 9-C -> 9-D -> 9-H ->10-S
+
+Decreasing
+  K-H -> J-S ->10-D -> 9-C -> 8-H -> 8-D -> 7-S -> 7-D -> 6-S -> 6-C -> 4-H -> 2-D -> A-D
+
+Increasing
+  A-D -> 2-D -> 4-H -> 6-C -> 6-S -> 7-D -> 7-S -> 8-D -> 8-H -> 9-C ->10-D -> J-S -> K-H
+
+Deck after sorting
+ A-C  A-D  A-H  A-S  2-C  2-D  2-H  2-S  3-C  3-D  3-H  3-S  4-C
+ 4-D  4-H  4-S  5-C  5-D  5-H  5-S  6-C  6-D  6-H  6-S  7-C  7-D
+ 7-H  7-S  8-C  8-D  8-H  8-S  9-C  9-D  9-H  9-S 10-C 10-D 10-H
+10-S  J-C  J-D  J-H  J-S  Q-C  Q-D  Q-H  Q-S  K-C  K-D  K-H  K-S
+
+=========== End   Game 4 ==========
+
+=========== Begin Game 5 ==========
+
+Deck before shuffling
+ A-C  2-C  3-C  4-C  5-C  6-C  7-C  8-C  9-C 10-C  J-C  Q-C  K-C
+ A-D  2-D  3-D  4-D  5-D  6-D  7-D  8-D  9-D 10-D  J-D  Q-D  K-D
+ A-H  2-H  3-H  4-H  5-H  6-H  7-H  8-H  9-H 10-H  J-H  Q-H  K-H
+ A-S  2-S  3-S  4-S  5-S  6-S  7-S  8-S  9-S 10-S  J-S  Q-S  K-S
+
+Deck after shuffling
+ 9-C 10-H  4-C  6-D  A-S  2-D  Q-C  A-H 10-C  8-C  6-S  2-H  2-S
+ J-D  J-S  6-H  2-C  8-H  Q-H  9-S  5-H  7-D 10-S  3-C  7-H  Q-S
+ 3-S  8-D  9-D  3-H  A-C  A-D  Q-D  K-S  4-D  8-S  6-C  J-C  5-C
+ K-D  7-S  J-H  9-H  K-H 10-D  7-C  K-C  3-D  4-S  4-H  5-D  5-S
+
+Card piles: 
+
+Stack: [ 9-C,  4-C,  A-S,  A-H,  A-C]
+Stack: [10-H,  6-D,  2-D,  2-C,  A-D]
+Stack: [ Q-C, 10-C,  8-C,  6-S,  2-H]
+Stack: [ 2-S]
+Stack: [ J-D,  6-H,  5-H,  3-C]
+Stack: [ J-S,  8-H,  7-D,  3-S,  3-H,  3-D]
+Stack: [ Q-H,  9-S,  7-H,  4-D]
+Stack: [10-S,  8-D,  6-C,  5-C,  4-S,  4-H]
+Stack: [ Q-S,  9-D,  8-S,  7-S,  7-C,  5-D]
+Stack: [ Q-D,  J-C,  9-H,  5-S]
+Stack: [ K-S,  K-D,  J-H, 10-D]
+Stack: [ K-H,  K-C]
+
+Longest subsequences: 
+
+Decreasing
+  K-C ->10-D -> 9-H -> 7-S -> 5-C -> 4-D -> 3-H -> 3-C -> 2-S -> 2-H -> 2-D -> A-S
+
+Increasing
+  A-S -> 2-D -> 2-H -> 2-S -> 3-C -> 3-H -> 4-D -> 5-C -> 7-S -> 9-H ->10-D -> K-C
+
+Decreasing
+  K-H -> J-H -> J-C -> 8-S -> 8-D -> 7-H -> 7-D -> 5-H -> 2-S -> 2-H -> 2-D -> A-S
+
+Increasing
+  A-S -> 2-D -> 2-H -> 2-S -> 5-H -> 7-D -> 7-H -> 8-D -> 8-S -> J-C -> J-H -> K-H
+
+Deck after sorting
+ A-C  A-D  A-H  A-S  2-C  2-D  2-H  2-S  3-C  3-D  3-H  3-S  4-C
+ 4-D  4-H  4-S  5-C  5-D  5-H  5-S  6-C  6-D  6-H  6-S  7-C  7-D
+ 7-H  7-S  8-C  8-D  8-H  8-S  9-C  9-D  9-H  9-S 10-C 10-D 10-H
+10-S  J-C  J-D  J-H  J-S  Q-C  Q-D  Q-H  Q-S  K-C  K-D  K-H  K-S
+
+=========== End   Game 5 ==========
